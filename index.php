@@ -10,3 +10,19 @@
  *
  * ( PS: Sélectionnez, mais affichez le résultat à chaque fois ! ).
  */
+
+
+
+require "DbPDO.php";
+DbPDO::connect();
+
+// 1
+DbPDO::oneExo();
+// 2
+DbPDO::twoExo();
+// 3
+DbPDO::threeExo();
+// 4
+DbPDO::fourExo();
+// 5
+DbPDO::fiveExo();
